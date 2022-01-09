@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Addition {
 public static void main(String args[]) {
-	LinkedList ll = new LinkedList();
+	LinkedList <Integer>ll = new LinkedList<Integer>();//Generic
 	Scanner s = new Scanner(System.in);
 	for(int i=0;i<3;i++) {
 		int a = s.nextInt();
@@ -17,8 +17,8 @@ public static void main(String args[]) {
 	
 	
 	//Sum of array
-	for(Object o:ll) {///[10]->10
-		sum = sum + (Integer)o;
+	for(Integer o:ll) {///[10]->10
+		sum = sum + o;
 	}
 	System.out.println(sum);
 	

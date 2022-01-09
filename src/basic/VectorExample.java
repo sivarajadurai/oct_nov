@@ -1,5 +1,6 @@
 package basic;
 
+import java.util.Stack;
 import java.util.Vector;
 
 public class VectorExample {
@@ -14,6 +15,13 @@ public class VectorExample {
 		for(Object o:v) {
 			System.out.println(o);
 		}
+		
+		Stack s = new Stack();
+		s.push(10);
+		s.push(20);
+		s.push(30);
+		s.pop();
+		System.out.println(s);
 		
 	}
 

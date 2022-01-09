@@ -22,6 +22,7 @@ public class CollTest {
 		
 		System.out.println(a.get(2));
 		
+		
 		for(Object o:a) {
 			System.out.println("foreach " +o);
 		}
